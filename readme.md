@@ -1,12 +1,13 @@
 # Backtesting Crypto
+# Requirments
+- Python 3.11.9
+- install the latest backtesting.py version `pip install git+https://github.com/kernc/backtesting.py.git`
+- install additional deps `pip install yfinance pandas ipykernal`
+    - you only need ipykernel if you are running a jupyter notebook
 
 In this repo i will be learning how to backtest different strategies in crypto with Bitcoin and Ethereum using differnt backtesting libraries like
 
 https://kernc.github.io/backtesting.py/
-
-https://github.com/mementum/backtrader
-
-https://github.com/polakowo/vectorbt
 
 The goal is to document the journey of learning how to become a quant and deploying stratgies in production
 
