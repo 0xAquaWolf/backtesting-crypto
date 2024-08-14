@@ -1,13 +1,16 @@
 # Backtesting Crypto
-# Requirments
+
+## Requirments
 - Python 3.11.9
 - install the latest backtesting.py version `pip install git+https://github.com/kernc/backtesting.py.git`
-- install additional deps `pip install yfinance pandas ipykernal`
-    - you only need ipykernel if you are running a jupyter notebook
+- TA Lib
+    - `brew install ta-lib` - need ta-lib c library to work with ta-lib python
+    - `pip install numpy==1.26.4` - need to ensure that we are using a numpy version lower then 2.0
+- install additional deps `pip install yfinance pandas`
+- Jupyter Noteboks deps
+    - `uv pip install ipykernel` for jupyter notebooks
 
 In this repo i will be learning how to backtest different strategies in crypto with Bitcoin and Ethereum using differnt backtesting libraries like
-
-https://kernc.github.io/backtesting.py/
 
 The goal is to document the journey of learning how to become a quant and deploying stratgies in production
 
@@ -16,3 +19,10 @@ The goal is to document the journey of learning how to become a quant and deploy
 - I endevour to stream weekly Mon-Wed-Friday
 
 https://www.youtube.com/watch?v=-TytHI38sU8&list=PLwbt1uBf9iqAsuCpIwOxrHJlSVCH7SsDY&pp=gAQBiAQB
+
+
+### Documentation
+- https://kernc.github.io/backtesting.py/
+- https://numpy.org/
+- https://pandas.pydata.org/docs/index.html
+- https://ta-lib.org/
