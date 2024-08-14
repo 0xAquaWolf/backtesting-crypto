@@ -1,19 +1,26 @@
 # Backtesting Crypto
 
 ## Requirments
-- Python 3.11.9
+- Python 3.11.9 (i'm using pyenv with fishshell)
+- uv (rust based - python package manger)
+    - _On macOS and Linux_
+        - curl -LsSf https://astral.sh/uv/install.sh | sh
+    - _windows_
+        - coming soon
 - install the latest backtesting.py version `pip install git+https://github.com/kernc/backtesting.py.git`
 - TA Lib
     - `brew install ta-lib` - need ta-lib c library to work with ta-lib python
     - `pip install numpy==1.26.4` - need to ensure that we are using a numpy version lower then 2.0
-- install additional deps `pip install yfinance pandas`
+- install additional deps `pip install pandas`
 - Jupyter Noteboks deps
-    - `uv pip install ipykernel` for jupyter notebooks
+    - `pip install ipykernel` for jupyter notebooks
 - CCXT for candle stick data
     - `pip install ccxt`
 
-In this repo i will be learning how to backtest different strategies in crypto with Bitcoin and Ethereum using differnt backtesting libraries like
+### Purpose
+In this repo i will be learning how to backtest different strategies in crypto using backtesting.py
 
+### Why?
 The goal is to document the journey of learning how to become a quant and deploying stratgies in production
 
 ## Watch me build in public
