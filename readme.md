@@ -9,6 +9,8 @@
 - install additional deps `pip install yfinance pandas`
 - Jupyter Noteboks deps
     - `uv pip install ipykernel` for jupyter notebooks
+- CCXT for candle stick data
+    - `pip install ccxt`
 
 In this repo i will be learning how to backtest different strategies in crypto with Bitcoin and Ethereum using differnt backtesting libraries like
 
@@ -26,3 +28,8 @@ https://www.youtube.com/watch?v=-TytHI38sU8&list=PLwbt1uBf9iqAsuCpIwOxrHJlSVCH7S
 - https://numpy.org/
 - https://pandas.pydata.org/docs/index.html
 - https://ta-lib.org/
+
+#### Todo's
+
+- [ ] add requirments for differnt operating systems like windows and linux (top 5 distros, arch, ubuntu, fedora...etc)
+ 
