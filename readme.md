@@ -4,7 +4,7 @@
 - Python 3.11.9 (i'm using pyenv with fishshell)
 - uv (rust based - python package manger)
     - _On macOS and Linux_
-        - curl -LsSf https://astral.sh/uv/install.sh | sh
+        - `curl -LsSf https://astral.sh/uv/install.sh | sh`
     - _windows_
         - coming soon
 - install the latest backtesting.py version `pip install git+https://github.com/kernc/backtesting.py.git`
@@ -25,7 +25,7 @@ The goal is to document the journey of learning how to become a quant and deploy
 
 ## Watch me build in public
 
-- I endevour to stream weekly Mon-Wed-Friday
+- I endevour to stream weekly Mon-Wed-Friday and sometimes on Saturdays if time permits
 
 https://www.youtube.com/watch?v=-TytHI38sU8&list=PLwbt1uBf9iqAsuCpIwOxrHJlSVCH7SsDY&pp=gAQBiAQB
 
@@ -37,6 +37,4 @@ https://www.youtube.com/watch?v=-TytHI38sU8&list=PLwbt1uBf9iqAsuCpIwOxrHJlSVCH7S
 - https://ta-lib.org/
 
 #### Todo's
-
 - [ ] add requirments for differnt operating systems like windows and linux (top 5 distros, arch, ubuntu, fedora...etc)
- 
